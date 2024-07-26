@@ -10,7 +10,7 @@ public class MegaActionPlatformer : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		PrivateDependencyModuleNames.AddRange(new string[] { "Paper2DEditor", "Paper2DEditor", "EnhancedInput" });
 
         PublicIncludePaths.AddRange(new string[] { "MegaActionPlatformer/" });
 		// Uncomment if you are using Slate UI
